@@ -68,3 +68,35 @@ aside {
   border-top: 5px solid var(--clr-accent);
   border-bottom: 5px solid var(--clr-accent);
 }
+
+li:first-child
+/* li:last-child, */
+/* li:nth-child(odd) */
+{
+  font-weight: bold;
+}
+
+a:link {
+  color: var(--clr-accent);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--clr-accent);
+}
+
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline solid orangered;
+}
+
+a:active {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  text-decoration: underline solid white;
+}
+
+/* LVHA for Links */
