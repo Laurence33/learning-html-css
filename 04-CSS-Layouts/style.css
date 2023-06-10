@@ -117,7 +117,21 @@ article {
   margin-bottom: 60px;
   height: 80px;
 }
-
+/* FLOATS */
+.main-header h1{
+  float: left;
+}
+.main-header nav{
+  float: right;
+}
+.clear {
+  clear: both;
+}
+.clearfix::after{
+  clear: both;
+  content: '';
+  display: block;
+}
 .post-header {
   margin-bottom: 40px;
 }
@@ -182,4 +196,15 @@ nav a:link {
   width: 700px;
   margin: 0 auto;
   position: relative;
+}
+/*  */
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
 }
