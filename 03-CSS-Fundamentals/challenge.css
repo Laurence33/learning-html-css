@@ -32,7 +32,22 @@ a:hover, a:active{
   width: 100%;
   max-width: 825px;
   margin: 0 auto;
+  margin-top: 30px;
+  position: relative;
 }
+
+.sale {
+  background-color: rgb(255, 71, 71);
+  color: white;
+  display: inline-block;
+  padding: 3px 8px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  position: absolute;
+  left: -33px;
+  top: -14px;
+}
+
 .product {
   border: 5px solid black;
 }
@@ -79,4 +94,34 @@ a:hover, a:active{
 .btn-add-cart:hover {
   background-color: white;
   color: black;
+}
+
+.box {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+}
+
+.box-black {
+  background-color: black;
+}
+
+.box-blue{
+  background-color: rgb(48, 48, 255);
+}
+.box-red{
+  background-color: rgb(255, 71, 71);
+}
+.box-yellow{
+  background-color:rgb(194, 142, 0);
+}
+.box-green{
+  background-color:rgb(0, 168, 0);
+}
+.box-brown{
+  background-color: #885214;
+}
+
+.box + .box {
+  margin-left: 8px;
 }
