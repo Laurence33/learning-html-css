@@ -93,6 +93,12 @@ button {
 
 article {
   margin-bottom: 60px;
+  width: 850px;
+  float: left;
+}
+
+footer {
+  clear: both;
 }
 #copyright {
   font-size: 16px;
@@ -147,6 +153,8 @@ aside {
   border-top: 5px solid var(--clr-accent);
   border-bottom: 5px solid var(--clr-accent);
   padding: 50px 00;
+  width: 300px;
+  float: right;
 }
 
 li:first-child
@@ -199,7 +207,7 @@ nav a:link {
 }
 
 .container {
-  width: 700px;
+  width: 1200px;
   margin: 0 auto;
   position: relative;
 }
