@@ -94,6 +94,12 @@ button {
 article {
   margin-bottom: 60px;
 }
+
+nav a:link {
+    margin-left: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
 #copyright {
   font-size: 16px;
 }
