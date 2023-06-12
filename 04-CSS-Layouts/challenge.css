@@ -98,10 +98,11 @@ a:hover, a:active{
 
 .boxes-container {
   /* margin-bottom: 25px; */
+  display: flex;
+  gap: 8px;
 }
 
 .box {
-  display: inline-block;
   width: 25px;
   height: 25px;
 }
@@ -126,46 +127,31 @@ a:hover, a:active{
   background-color: #885214;
 }
 
-.box + .box {
-  margin-left: 8px;
-}
-
-.float-box, 
-.img-box {
-  float: left;
-}
-
 .img-box {
   height: 250px;
 }
 
-article .float-box:first-child{
-  height: 250px;
+
+.flex{
+  display: flex;
+  gap: 40px;
 }
 
-.float-box {
-  width: 240px;
-  margin-left: 40px;
+.flex .float-box {
+  flex-basis: 243px;
 }
 
-.price-p {
- float: left;
- margin: 8px 0;
+.price-promo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: .75rem 0;
 }
 
-.promo {
-  float: right;
-  margin: 15px 0;
-}
-
-.description-p{
-  clear: both;
+p.promo{
+  margin-bottom: 0;
 }
 
 .details-header {
-  margin-top: 10px;
+  margin-top: .75rem;
 }
-/* Clearfix */
-/* .product {
-  background-color: limegreen;
-} */
