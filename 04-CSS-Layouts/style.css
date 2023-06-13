@@ -26,7 +26,7 @@ body {
   padding-left: 40px;
   padding-right: 40px; */
   padding: 20px 40px;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
   /* height: 80px; */
   display: flex;
   align-items: center;
@@ -38,9 +38,9 @@ nav {
   /* text-align: center; */
 }
 
-article {
+/* article {
   margin-bottom: 60px;
-}
+} */
 
 .post-header {
   margin-bottom: 40px;
@@ -54,7 +54,7 @@ aside {
   /* padding-top: 50px;
   padding-bottom: 50px; */
   padding: 50px 0;
-  width: 500px;
+  /* width: 500px; */
 }
 
 /* SMALLER ELEMENTS */
@@ -303,7 +303,8 @@ nav p {
   display: block;
   margin-bottom: 5px;
 }
-
+/* FLEXBOX */
+/*
 .content {
   display: flex;
   align-items:flex-start;
@@ -316,4 +317,31 @@ article {
 }
 aside {
   flex: 0 1 300px;
+} */
+
+/* CSS Grid Layouts */
+.container {
+  display: grid;
+
+  grid-template-columns: 1fr 300px;
+  column-gap: 75px;
+  row-gap: 60px;
+
+  align-items: start;
+}
+
+.main-header {
+  grid-column: 1 / -1;
+}
+
+/* article{
+
+} */
+
+/* aside {
+  align-self: start;
+} */
+
+footer {
+  grid-column: 1 / -1;
 }
